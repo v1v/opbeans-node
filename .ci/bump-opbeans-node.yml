@@ -41,8 +41,7 @@ conditions:
     scmid: githubConfig
     spec:
       file: package.json
-      matchpattern: '"elastic-apm-node": "^{{ source "elastic-apm-node:" }}'
-    failwhen: true
+      matchpattern: '"elastic-apm-node": "^{{ source "elastic-apm-node" }}"'
     failwhen: false
 
 targets:
