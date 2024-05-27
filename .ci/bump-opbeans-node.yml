@@ -9,7 +9,7 @@ scms:
     spec:
       user: '{{ requiredEnv "GIT_USER" }}'
       email: '{{ requiredEnv "GIT_EMAIL" }}'
-      owner: elastic
+      owner: v1v
       repository: opbeans-node
       token: '{{ requiredEnv "GITHUB_TOKEN" }}'
       username: '{{ requiredEnv "GIT_USER" }}'
